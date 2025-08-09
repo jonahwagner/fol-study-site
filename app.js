@@ -29,8 +29,10 @@ fetch(dataPath).then(r=>{
   state.idx = 0; state.score = 0;
   renderQuestion();
 }).catch(err=>{
-  qTitle.textContent = 'Could not load quiz.';
-  choicesWrap.innerHTML = `<div class="alert">We couldn\'t find <code>${dataPath}</code>. Check the URL or file path.</div>`;
+  qTitle.textContent = 'No questions yet for this event.';
+  choicesWrap.innerHTML = `<div class="alert">Add questions at <code>${dataPath}</code>. Use the JSON template below.</div>
+  <div class="small">
+  <pre style="white-space:pre-wrap;word-break:break-word;background:#f8fafc;padding:12px;border-radius:10px;border:1px solid #e5e7eb;margin-top:10px">{\n  \"event\": \"${eventKey}\",\n  \"title\": \"${topicKey.replaceAll('_',' ')}\",\n  \"questions\": [\n    {\n      \"prompt\": \"Sample question?\",\n      \"choices\": [\"A\", \"B\", \"C\", \"D\"],\n      \"answer\": 0,\n      \"explanation\": \"Why this is correct.\"\n    }\n  ]\n}</pre></div>`;
 });
 
 function renderQuestion(){
@@ -59,7 +61,7 @@ function selectChoice(div, i, q){
   div.classList.add('selected');
   state.selected = i;
   nextBtn.disabled = false;
-  // Immediate feedback on click
+  // Immediate feedback
   state.answered = true;
   const correct = i === q.answer;
   if(correct) { state.score++; div.classList.add('correct'); }

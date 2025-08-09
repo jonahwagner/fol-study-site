@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Browse Events • FinancesOfLife</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">F</span>
+      <span>FinancesOfLife <span class="tag">Study</span></span>
+    </a>
+    <div style="margin-left:auto">
+      <a class="btn secondary" href="index.html">Home</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>Browse All Events</h1>
+    <div class="search">
+      <input id="q" placeholder="Search (e.g., 'marketing', 'principles', 'accounting')">
+      <button class="btn" id="clearBtn">Clear</button>
+    </div>
+    <div class="filters">
+      <button class="filter" data-org="fbla">FBLA</button>
+      <button class="filter" data-org="deca">DECA</button>
+      <button class="filter" data-type="Objective Test">Objective Test</button>
+      <button class="filter" data-type="Role Play">Role Play</button>
+      <button class="filter" data-type="Presentation">Presentation</button>
+      <button class="filter" data-type="Production">Production</button>
+      <button class="filter" data-type="Chapter Event">Chapter Event</button>
+      <button class="filter" data-type="Principles">Principles</button>
+      <button class="filter" data-type="Individual Series">Individual Series</button>
+      <button class="filter" data-type="Team Decision Making">Team Decision Making</button>
+      <button class="filter" data-type="Business Operations Research">Business Operations Research</button>
+      <button class="filter" data-type="Project Management">Project Management</button>
+      <button class="filter" data-type="Entrepreneurship">Entrepreneurship</button>
+      <button class="filter" data-type="Integrated Marketing Campaign">Integrated Marketing Campaign</button>
+      <button class="filter" data-type="Professional Selling and Consulting">Professional Selling/Consulting</button>
+      <button class="filter" data-type="Online Events">Online Events</button>
+    </div>
+    <div id="wrap" class="grid" style="margin-top:14px"></div>
+    <div id="empty" class="empty" style="display:none">No events match your filters yet.</div>
+  </div>
+
+  <script>
+    const filters = new Set();
+    const wrap = document.getElementById('wrap');
+    const empty = document.getElementById('empty');
+    const q = document.getElementById('q');
+    const clearBtn = document.getElementById('clearBtn');
+
+    document.querySelectorAll('.filter').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const key = btn.dataset.org ? 'org:'+btn.dataset.org : 'type:'+btn.dataset.type;
+        if(btn.classList.contains('active')){ btn.classList.remove('active'); filters.delete(key); }
+        else { btn.classList.add('active'); filters.add(key); }
+        render();
+      });
+    });
+
+    clearBtn.onclick = ()=>{
+      q.value='';
+      filters.clear();
+      document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
+      render();
+    };
+
+    let data = [];
+    Promise.all([fetch('data/fbla/_events.json').then(r=>r.json()), fetch('data/deca/_events.json').then(r=>r.json())]).then(([fbla,deca])=>{
+      data = [...fbla, ...deca];
+      render();
+      if(location.hash==='#fbla'){ document.querySelector('.filter[data-org="fbla"]').click(); }
+      if(location.hash==='#deca'){ document.querySelector('.filter[data-org="deca"]').click(); }
+    });
+
+    q.addEventListener('input', render);
+
+    function render(){
+      const query = q.value.trim().toLowerCase();
+      wrap.innerHTML = '';
+      const items = data.filter(ev=>{
+        if(query && !(`${ev.name} ${ev.slug} ${ev.type}`.toLowerCase().includes(query))) return false;
+        // filters
+        for(const f of filters){
+          if(f.startsWith('org:')){ const val=f.split(':')[1]; if(ev.org!==val) return false; }
+          if(f.startsWith('type:')){ const val=f.split(':')[1]; if(ev.type!==val) return false; }
+        }
+        return true;
+      });
+
+      items.forEach(ev=>{
+        const a = document.createElement('a');
+        a.className='card';
+        a.href = `quiz.html?event=${ev.org}&topic=${ev.slug}`;
+        a.innerHTML = `<span class="badge">${ev.org.toUpperCase()}</span><h3>${ev.name}</h3><p>${ev.type}</p>`;
+        wrap.appendChild(a);
+      });
+      empty.style.display = items.length? 'none':'block';
+    }
+  </script>
+</body>
+</html>

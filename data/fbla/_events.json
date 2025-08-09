@@ -1,0 +1,458 @@
+[
+  {
+    "org": "fbla",
+    "slug": "accounting",
+    "name": "Accounting",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "advanced_accounting",
+    "name": "Advanced Accounting",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "advertising",
+    "name": "Advertising",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "agribusiness",
+    "name": "Agribusiness",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "banking_and_financial_systems",
+    "name": "Banking & Financial Systems",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "broadcast_journalism",
+    "name": "Broadcast Journalism",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "business_communication",
+    "name": "Business Communication",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "business_ethics",
+    "name": "Business Ethics",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "business_law",
+    "name": "Business Law",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "business_management",
+    "name": "Business Management",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "business_plan",
+    "name": "Business Plan",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "career_portfolio",
+    "name": "Career Portfolio",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "coding_and_programming",
+    "name": "Coding & Programming",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "community_service_project",
+    "name": "Community Service Project",
+    "type": "Chapter Event"
+  },
+  {
+    "org": "fbla",
+    "slug": "computer_applications",
+    "name": "Computer Applications",
+    "type": "Production"
+  },
+  {
+    "org": "fbla",
+    "slug": "computer_game_and_simulation_programming",
+    "name": "Computer Game & Simulation Programming",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "computer_problem_solving",
+    "name": "Computer Problem Solving",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "customer_service",
+    "name": "Customer Service",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "cybersecurity",
+    "name": "Cybersecurity",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "data_analysis",
+    "name": "Data Analysis",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "data_science_and_ai",
+    "name": "Data Science & AI",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "digital_animation",
+    "name": "Digital Animation",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "digital_video_production",
+    "name": "Digital Video Production",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "economics",
+    "name": "Economics",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "event_planning",
+    "name": "Event Planning",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "financial_planning",
+    "name": "Financial Planning",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "financial_statement_analysis",
+    "name": "Financial Statement Analysis",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "future_business_educator",
+    "name": "Future Business Educator",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "future_business_leader",
+    "name": "Future Business Leader",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "graphic_design",
+    "name": "Graphic Design",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "healthcare_administration",
+    "name": "Healthcare Administration",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "hospitality_and_event_management",
+    "name": "Hospitality & Event Management",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "human_resource_management",
+    "name": "Human Resource Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "impromptu_speaking",
+    "name": "Impromptu Speaking",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "insurance_and_risk_management",
+    "name": "Insurance & Risk Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "international_business",
+    "name": "International Business",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_business_communication",
+    "name": "Introduction to Business Communication",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_business_concepts",
+    "name": "Introduction to Business Concepts",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_business_presentation",
+    "name": "Introduction to Business Presentation",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_business_procedures",
+    "name": "Introduction to Business Procedures",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_fbla",
+    "name": "Introduction to FBLA",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_information_technology",
+    "name": "Introduction to Information Technology",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_marketing_concepts",
+    "name": "Introduction to Marketing Concepts",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_parliamentary_procedure",
+    "name": "Introduction to Parliamentary Procedure",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_programming",
+    "name": "Introduction to Programming",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_public_speaking",
+    "name": "Introduction to Public Speaking",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_retail_and_merchandising",
+    "name": "Introduction to Retail & Merchandising",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_social_media_strategy",
+    "name": "Introduction to Social Media Strategy",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "introduction_to_supply_chain_management",
+    "name": "Introduction to Supply Chain Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "job_interview",
+    "name": "Job Interview",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "journalism",
+    "name": "Journalism",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "local_chapter_annual_business_report",
+    "name": "Local Chapter Annual Business Report",
+    "type": "Chapter Event"
+  },
+  {
+    "org": "fbla",
+    "slug": "management_information_systems",
+    "name": "Management Information Systems",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "marketing",
+    "name": "Marketing",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "mobile_application_development",
+    "name": "Mobile Application Development",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "network_design",
+    "name": "Network Design",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "networking_infrastructures",
+    "name": "Networking Infrastructures",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "organizational_leadership",
+    "name": "Organizational Leadership",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "parliamentary_procedure",
+    "name": "Parliamentary Procedure",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "personal_finance",
+    "name": "Personal Finance",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "project_management",
+    "name": "Project Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "public_administration_and_management",
+    "name": "Public Administration & Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "public_service_announcement",
+    "name": "Public Service Announcement",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "public_speaking",
+    "name": "Public Speaking",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "real_estate",
+    "name": "Real Estate",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "retail_management",
+    "name": "Retail Management",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "sales_presentation",
+    "name": "Sales Presentation",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "securities_and_investments",
+    "name": "Securities & Investments",
+    "type": "Objective Test"
+  },
+  {
+    "org": "fbla",
+    "slug": "social_media_strategies",
+    "name": "Social Media Strategies",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "sports_and_entertainment_management",
+    "name": "Sports & Entertainment Management",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "supply_chain_management",
+    "name": "Supply Chain Management",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "technology_support_and_services",
+    "name": "Technology Support & Services",
+    "type": "Role Play"
+  },
+  {
+    "org": "fbla",
+    "slug": "visual_design",
+    "name": "Visual Design",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "website_coding_and_development",
+    "name": "Website Coding & Development",
+    "type": "Presentation"
+  },
+  {
+    "org": "fbla",
+    "slug": "website_design",
+    "name": "Website Design",
+    "type": "Presentation"
+  }
+]

@@ -13,42 +13,32 @@
       <span class="logo-badge">F</span>
       <span>FinancesOfLife <span class="tag">Study</span></span>
     </div>
-    <div style="margin-left:auto">
-      <a class="btn secondary" href="#how">How it works</a>
-      <a class="btn" href="quiz.html?event=fbla&topic=organizational_leadership">Start Practice</a>
+    <div style="margin-left:auto;display:flex;gap:8px">
+      <a class="btn secondary" href="events.html">Browse All Events</a>
+      <a class="btn" href="quiz.html?event=fbla&topic=organizational_leadership">Quick Start</a>
     </div>
   </header>
 
   <section class="hero">
     <div class="container">
       <h1>FBLA & DECA Practice — green, clean, simple.</h1>
-      <p>Quick practice quizzes for competitive events. Instant feedback, clean explanations, and a friendly green theme.</p>
-      <div class="search">
-        <input id="searchInput" placeholder="Search events (e.g., 'marketing', 'leadership')">
-        <a class="btn" href="#" onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})">Browse</a>
-      </div>
+      <p>Pick any event from the full list and start practicing. You can add questions over time.</p>
       <div class="grid" style="margin-top:18px">
-        <a class="card" href="quiz.html?event=fbla&topic=organizational_leadership">
+        <a class="card" href="events.html#fbla">
           <span class="badge">FBLA</span>
-          <h3>Organizational Leadership</h3>
-          <p>Team dynamics, motivation, and management concepts.</p>
+          <h3>All FBLA Events</h3>
+          <p>Objective tests, role plays, presentations, and more.</p>
         </a>
-        <a class="card" href="quiz.html?event=deca&topic=principles_of_business_management">
+        <a class="card" href="events.html#deca">
           <span class="badge">DECA</span>
-          <h3>Principles of Business Management</h3>
-          <p>Core business, ethics, and communication basics.</p>
+          <h3>All DECA Events</h3>
+          <p>Principles, ISE/DM, prepared, and online simulations.</p>
         </a>
       </div>
-
-      <div id="how" class="container" style="padding:0">
+      <div class="container" style="padding:0">
         <hr/>
-        <h2>How it works</h2>
-        <ol>
-          <li>Pick your event.</li>
-          <li>Answer multiple‑choice questions.</li>
-          <li>See explanations after each question and a score at the end.</li>
-        </ol>
-        <p class="small">This is a starter site you can grow. Add more events by dropping JSON files into <code>/data/</code>.</p>
+        <h2>How to add questions</h2>
+        <p class="small">Drop JSON files into <code>/data/{fbla|deca}/{slug}.json</code> or use the built-in stubs. The site loads them automatically.</p>
       </div>
     </div>
   </section>
@@ -57,8 +47,6 @@
     <div class="container">© <span id="year"></span> FinancesOfLife — Practice makes confident.</div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+{
+  "event": "deca",
+  "title": "Principles of Business Management and Administration (Sample)",
+  "questions": [
+    {
+      "prompt": "Which document outlines a company's reason for existing?",
+      "choices": [
+        "Mission statement",
+        "Budget",
+        "Org chart",
+        "Press release"
+      ],
+      "answer": 0,
+      "explanation": "Mission = purpose; vision = desired future state."
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "org": "deca",
+    "slug": "accounting_applications_series",
+    "name": "Accounting Applications Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "apparel_and_accessories_marketing_series",
+    "name": "Apparel and Accessories Marketing Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "automotive_services_marketing_series",
+    "name": "Automotive Services Marketing Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "business_finance_series",
+    "name": "Business Finance Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "business_growth_plan",
+    "name": "Business Growth Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "business_law_and_ethics_tdm",
+    "name": "Business Law and Ethics Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "business_services_marketing_series",
+    "name": "Business Services Marketing Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "business_services_operations_research",
+    "name": "Business Services Operations Research",
+    "type": "Business Operations Research"
+  },
+  {
+    "org": "deca",
+    "slug": "business_solutions_project",
+    "name": "Business Solutions Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "buying_and_merchandising_operations_research",
+    "name": "Buying and Merchandising Operations Research",
+    "type": "Business Operations Research"
+  },
+  {
+    "org": "deca",
+    "slug": "buying_and_merchandising_tdm",
+    "name": "Buying and Merchandising Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "career_development_project",
+    "name": "Career Development Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "community_awareness_project",
+    "name": "Community Awareness Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "community_giving_project",
+    "name": "Community Giving Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "entrepreneurship_series",
+    "name": "Entrepreneurship Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "entrepreneurship_tdm",
+    "name": "Entrepreneurship Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "finance_operations_research",
+    "name": "Finance Operations Research",
+    "type": "Business Operations Research"
+  },
+  {
+    "org": "deca",
+    "slug": "financial_consulting",
+    "name": "Financial Consulting",
+    "type": "Professional Selling and Consulting"
+  },
+  {
+    "org": "deca",
+    "slug": "financial_literacy_project",
+    "name": "Financial Literacy Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "financial_services_tdm",
+    "name": "Financial Services Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "food_marketing_series",
+    "name": "Food Marketing Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "franchise_business_plan",
+    "name": "Franchise Business Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "hospitality_services_tdm",
+    "name": "Hospitality Services Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "hospitality_and_tourism_operations_research",
+    "name": "Hospitality and Tourism Operations Research",
+    "type": "Business Operations Research"
+  },
+  {
+    "org": "deca",
+    "slug": "hospitality_and_tourism_professional_selling",
+    "name": "Hospitality and Tourism Professional Selling",
+    "type": "Professional Selling and Consulting"
+  },
+  {
+    "org": "deca",
+    "slug": "hotel_and_lodging_management_series",
+    "name": "Hotel and Lodging Management Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "human_resources_management_series",
+    "name": "Human Resources Management Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "independent_business_plan",
+    "name": "Independent Business Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "innovation_plan",
+    "name": "Innovation Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "integrated_marketing_campaign_event",
+    "name": "Integrated Marketing Campaign-Event",
+    "type": "Integrated Marketing Campaign"
+  },
+  {
+    "org": "deca",
+    "slug": "integrated_marketing_campaign_product",
+    "name": "Integrated Marketing Campaign-Product",
+    "type": "Integrated Marketing Campaign"
+  },
+  {
+    "org": "deca",
+    "slug": "integrated_marketing_campaign_service",
+    "name": "Integrated Marketing Campaign-Service",
+    "type": "Integrated Marketing Campaign"
+  },
+  {
+    "org": "deca",
+    "slug": "international_business_plan",
+    "name": "International Business Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "marketing_communications_series",
+    "name": "Marketing Communications Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "marketing_management_tdm",
+    "name": "Marketing Management Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "personal_financial_literacy",
+    "name": "Personal Financial Literacy",
+    "type": "Personal Financial Literacy"
+  },
+  {
+    "org": "deca",
+    "slug": "principles_of_business_management_and_administration",
+    "name": "Principles of Business Management and Administration",
+    "type": "Principles"
+  },
+  {
+    "org": "deca",
+    "slug": "principles_of_entrepreneurship",
+    "name": "Principles of Entrepreneurship",
+    "type": "Principles"
+  },
+  {
+    "org": "deca",
+    "slug": "principles_of_finance",
+    "name": "Principles of Finance",
+    "type": "Principles"
+  },
+  {
+    "org": "deca",
+    "slug": "principles_of_hospitality_and_tourism",
+    "name": "Principles of Hospitality and Tourism",
+    "type": "Principles"
+  },
+  {
+    "org": "deca",
+    "slug": "principles_of_marketing",
+    "name": "Principles of Marketing",
+    "type": "Principles"
+  },
+  {
+    "org": "deca",
+    "slug": "professional_selling",
+    "name": "Professional Selling",
+    "type": "Professional Selling and Consulting"
+  },
+  {
+    "org": "deca",
+    "slug": "quick_serve_restaurant_management_series",
+    "name": "Quick Serve Restaurant Management Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "restaurant_and_food_service_management_series",
+    "name": "Restaurant and Food Service Management Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "retail_merchandising_series",
+    "name": "Retail Merchandising Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "sales_project",
+    "name": "Sales Project",
+    "type": "Project Management"
+  },
+  {
+    "org": "deca",
+    "slug": "sports_and_entertainment_marketing_operations_research",
+    "name": "Sports and Entertainment Marketing Operations Research",
+    "type": "Business Operations Research"
+  },
+  {
+    "org": "deca",
+    "slug": "sports_and_entertainment_marketing_series",
+    "name": "Sports and Entertainment Marketing Series",
+    "type": "Individual Series"
+  },
+  {
+    "org": "deca",
+    "slug": "sports_and_entertainment_marketing_tdm",
+    "name": "Sports and Entertainment Marketing Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "startup_business_plan",
+    "name": "Start-Up Business Plan",
+    "type": "Entrepreneurship"
+  },
+  {
+    "org": "deca",
+    "slug": "stock_market_game",
+    "name": "Stock Market Game",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "travel_and_tourism_tdm",
+    "name": "Travel and Tourism Team Decision Making",
+    "type": "Team Decision Making"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_accounting",
+    "name": "Virtual Business Challenge-Accounting",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_entrepreneurship",
+    "name": "Virtual Business Challenge-Entrepreneurship",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_fashion",
+    "name": "Virtual Business Challenge-Fashion",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_hotel_management",
+    "name": "Virtual Business Challenge-Hotel Management",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_personal_finance",
+    "name": "Virtual Business Challenge-Personal Finance",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_restaurant",
+    "name": "Virtual Business Challenge-Restaurant",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_retail",
+    "name": "Virtual Business Challenge-Retail",
+    "type": "Online Events"
+  },
+  {
+    "org": "deca",
+    "slug": "virtual_business_challenge_sports",
+    "name": "Virtual Business Challenge-Sports",
+    "type": "Online Events"
+  }
+]
