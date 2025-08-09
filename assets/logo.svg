@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="36" viewBox="0 0 240 72">
+  <rect x="0" y="0" rx="12" ry="12" width="72" height="72" fill="#16a34a"/>
+  <text x="36" y="46" text-anchor="middle" font-size="34" font-family="Arial" font-weight="900" fill="#ffffff">F</text>
+  <text x="86" y="46" font-size="28" font-family="Arial" font-weight="800" fill="#0b0f13">Finances</text>
+  <text x="190" y="46" font-size="28" font-family="Arial" font-weight="800" fill="#16a34a">OfLife</text>
+</svg>

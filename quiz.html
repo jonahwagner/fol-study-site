@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Quiz • FinancesOfLife</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">
+      <span class="logo-badge">F</span>
+      <span>FinancesOfLife <span class="tag">Study</span></span>
+    </a>
+    <div style="margin-left:auto">
+      <a class="btn secondary" href="index.html">Home</a>
+    </div>
+  </header>
+
+  <div class="quiz-wrap">
+    <div class="q-meta">
+      <div><strong id="badge"></strong> • <span id="topicLabel"></span></div>
+      <div id="progress" class="small">0/0</div>
+    </div>
+    <div class="q-box">
+      <h2 class="q-title" id="qTitle">Loading…</h2>
+      <div id="choices"></div>
+      <div id="explain" class="alert" style="display:none"></div>
+      <div class="q-actions">
+        <button id="nextBtn" class="btn" disabled>Next</button>
+        <button id="restartBtn" class="btn secondary" style="display:none">Restart</button>
+      </div>
+    </div>
+    <div id="result" class="result" style="display:none;margin-top:16px"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "event": "deca",
+  "title": "Principles of Business Management (Sample)",
+  "questions": [
+    {
+      "prompt": "Which statement best describes a mission statement?",
+      "choices": [
+        "A detailed 5\u2011year budget",
+        "A purpose statement explaining why the company exists",
+        "A list of products by revenue",
+        "A tactical sales playbook"
+      ],
+      "answer": 1,
+      "explanation": "Mission states purpose; vision describes the future state the firm seeks."
+    },
+    {
+      "prompt": "Ethical business behavior primarily aims to:",
+      "choices": [
+        "Maximize short\u2011term profit",
+        "Comply with industry trends",
+        "Protect stakeholders and build long\u2011term trust",
+        "Avoid innovation risk"
+      ],
+      "answer": 2,
+      "explanation": "Ethics supports stakeholders and brand trust over the long run."
+    },
+    {
+      "prompt": "In the marketing mix, 'Place' refers to:",
+      "choices": [
+        "Packaging design",
+        "Distribution channels and logistics",
+        "Pricing strategy",
+        "Promotional messaging"
+      ],
+      "answer": 1,
+      "explanation": "Place is how the product gets to customers (channels, logistics, retail, etc.)."
+    },
+    {
+      "prompt": "A balance sheet shows:",
+      "choices": [
+        "Revenues and expenses over a period",
+        "Assets, liabilities, and equity at a point in time",
+        "Cash inflows and outflows forecasted for next quarter",
+        "Only cash and inventory levels"
+      ],
+      "answer": 1,
+      "explanation": "It\u2019s a snapshot: Assets = Liabilities + Equity."
+    },
+    {
+      "prompt": "Which communication practice is most effective in presentations?",
+      "choices": [
+        "Reading slides verbatim",
+        "Using jargon to sound expert",
+        "Maintaining eye contact and summarizing key points",
+        "Talking quickly to fit more content"
+      ],
+      "answer": 2,
+      "explanation": "Clear structure + eye contact improves audience understanding and retention."
+    }
+  ]
+}

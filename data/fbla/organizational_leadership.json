@@ -1,0 +1,61 @@
+{
+  "event": "fbla",
+  "title": "Organizational Leadership (Sample)",
+  "questions": [
+    {
+      "prompt": "Which leadership style emphasizes shared decision\u2011making and group consensus?",
+      "choices": [
+        "Autocratic",
+        "Democratic",
+        "Laissez\u2011faire",
+        "Transactional"
+      ],
+      "answer": 1,
+      "explanation": "Democratic leaders seek input and build consensus before making decisions."
+    },
+    {
+      "prompt": "According to Maslow, which need is at the top of the hierarchy?",
+      "choices": [
+        "Physiological",
+        "Safety",
+        "Esteem",
+        "Self\u2011actualization"
+      ],
+      "answer": 3,
+      "explanation": "Self\u2011actualization represents achieving one\u2019s full potential."
+    },
+    {
+      "prompt": "A SMART goal is\u2026",
+      "choices": [
+        "Strategic, Measurable, Agile, Relevant, Timed",
+        "Specific, Measurable, Achievable, Relevant, Time\u2011bound",
+        "Simple, Marketable, Actionable, Realistic, Timed",
+        "Specific, Manageable, Achievable, Rational, Time\u2011boxed"
+      ],
+      "answer": 1,
+      "explanation": "SMART = Specific, Measurable, Achievable, Relevant, Time\u2011bound."
+    },
+    {
+      "prompt": "In Tuckman\u2019s team stages, performance typically stabilizes during:",
+      "choices": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Adjourning"
+      ],
+      "answer": 2,
+      "explanation": "Norming is when roles are clear and processes gel; performance often rises."
+    },
+    {
+      "prompt": "Which conflict\u2011resolution method seeks mutual gains (win\u2011win)?",
+      "choices": [
+        "Avoiding",
+        "Competing",
+        "Accommodating",
+        "Collaborating"
+      ],
+      "answer": 3,
+      "explanation": "Collaborating explores interests to create value for both sides."
+    }
+  ]
+}
